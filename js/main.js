@@ -10,10 +10,13 @@ console.log(medicamento);
 let medicamentoregistrado=prompt("Nombre Registrado");
 console.log(medicamentoregistrado);
 let ingresomg=prompt("miligramos por comprimido");
-console.log("Un comprimido o cápsula tiene:"+ ingresomg);
-let numero2=prompt("Indicación por vez"); 
-
-let comppordia=parseFloat(numero2*3);
+console.log("Un comprimido o cápsula tiene:"+ ingresomg + "miligramos");
+let numero2=prompt("Indicación de cuantos comprimidos a tomar por vez"); 
+numero2=parseFloat(numero2)
+let cantidad=prompt("Ingresa cantidad de veces en el día que tengo que tomar el medicamento")
+cantidad=parseFloat( cantidad);
+console.log("Por día tengo que tomar:"+ cantidad);
+let comppordia=parseFloat(numero2*cantidad);
 console.log("La cantidad de comprimidos que tomará en un día es:" + comppordia);
 
 
