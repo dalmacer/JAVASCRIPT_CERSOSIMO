@@ -5,17 +5,18 @@ console.log(ingresoDato);
 let nombreyapellido= prompt("Nombre y Apellido");
 
 console.log(nombreyapellido);
-let medicamento=prompt("droga")
+let medicamento=prompt("principio activo")
 console.log(medicamento);
-let medicamentoregistrado=prompt("NR");
+let medicamentoregistrado=prompt("Nombre Registrado");
 console.log(medicamentoregistrado);
-let numero2="1"; 
-console.log(" Ud tomará" + numero2 +"comprimido a la mañana" +numero2+ "comprimido a la tarde" +numero2+" comprimido a la noche");
-let comppordia=(1*3);
+let ingresomg=prompt("miligramos por comprimido");
+console.log("Un comprimido o cápsula tiene:"+ ingresomg);
+let numero2=prompt("Indicación por vez"); 
+
+let comppordia=parseFloat(numero2*3);
 console.log("La cantidad de comprimidos que tomará en un día es:" + comppordia);
 
-let ingresomg=prompt("miligramos por comprimido");
-console.log("Un comprimido o cápsula que ud. va a tomar cada 8 hs tiene:"+ ingresomg);
+
 let numero1=(comppordia*ingresomg)
 console.log("La cantidad en mg que se toma por día es:" + numero1);
 
