@@ -15,7 +15,7 @@ let numero2=prompt("Indicación de cuantos comprimidos a tomar por vez");
 numero2=parseFloat(numero2)
 let cantidad=prompt("Ingresa cantidad de veces en el día que tengo que tomar el medicamento")
 cantidad=parseFloat( cantidad);
-console.log("Por día tengo que tomar:"+ cantidad);
+console.log("Por día tengo que tomar:"+ cantidad +"comprimidos");
 let comppordia=parseFloat(numero2*cantidad);
 console.log("La cantidad de comprimidos que tomará en un día es:" + comppordia);
 
@@ -25,3 +25,4 @@ console.log("La cantidad en mg que se toma por día es:" + numero1);
 
 let resultado=parseFloat(numero1*numero2/ingresomg);
 console.log("EN TODO EL DIA TOMARA: " +resultado+ "COMPRIMIDOS");
+
