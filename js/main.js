@@ -26,3 +26,7 @@ console.log("La cantidad en mg que se toma por día es:" + numero1);
 let resultado=parseFloat(numero1*numero2/ingresomg);
 console.log("EN TODO EL DIA TOMARA: " +resultado+ "COMPRIMIDOS");
 
+
+
+
+
